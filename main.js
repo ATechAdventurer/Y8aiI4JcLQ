@@ -23,6 +23,7 @@ bot.on('message', (msg) => {
     switch (formattedCommand[0]) {
         case "rules":
             msg.channel.send(buildEmbed(msg.guild.id));
+            msg.delete();
             break;
     }
 })
