@@ -2,7 +2,7 @@ require('dotenv').config();
 const { Client } = require('discord.js');
 
 const rules = require('./rules.json');
-const { NO_COMPATIBLE_SERVERS_FOUND } = require('./lib/constants');
+const { NO_COMPATIBLE_SERVERS_FOUND, NO_RULES_FOUND } = require('./lib/constants');
 const { buildEmbed } = require('./lib/embed');
 const bot = new Client();
 
@@ -22,6 +22,10 @@ bot.on('message', (msg) => {
     const formattedCommand = msg.content.replace(process.env.DISCRIMINATOR, "").split(" ");
     switch (formattedCommand[0]) {
         case "rules":
+            if(!rules.hasOwnProperty(msg.guild.id)){
+                msg.reply(NO_RULES_FOUND);
+                return;
+            }
             msg.channel.send(buildEmbed(msg.guild.id));
             msg.delete();
             break;
