@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "name": "Y8aiI4JcLQ",
+  "description": "",
+  "version": "1.0.0",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATechAdventurer/Y8aiI4JcLQ.git"
+  },
+  "keywords": [],
+  "author": " Cameron Steele (ATechAdventurer)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ATechAdventurer/Y8aiI4JcLQ/issues"
+  },
+  "homepage": "https://github.com/ATechAdventurer/Y8aiI4JcLQ#readme"
+}
