@@ -6,7 +6,7 @@ This is a basic discord bot that I made while filling out the TechTok Developer 
 ## How do I test it?
 
 This was designed to be easily configured and deployed. Simply make a copy of `.env.example` call it `.env` and paste your discord bot token right after (on the same line, no spaces) `DISCORD_BOT_TOKEN=`
-Then verify that the first key in `rules.json` matches your server's ID. If you need to find that [https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-](This can help).
+Then verify that the first key in `rules.json` matches your server's ID. If you need to find that [This can help](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
 
 Once you do all that simply run `npm install` to make sure discord.js and other dependencies are installed and finally run `npm start` to start the bot.
 
