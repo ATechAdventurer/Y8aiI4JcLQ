@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
   },
   "name": "Y8aiI4JcLQ",
   "description": "",
@@ -9,7 +10,11 @@
   "directories": {
     "lib": "lib"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
