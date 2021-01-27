@@ -12,5 +12,5 @@ Once you do all that simply run `npm install` to make sure discord.js and other 
 
 ***Note:*** if the server you run this bot in is not on the list of `rules.json` it will throw a `NO_COMPATIBLE_SERVERS_FOUND` exception and shut down.
 
-Once the bot is up and running simply type ?rules and the embed will be sent in that channel, and your inital command will be removed.
+Once the bot is up and running simply type `?rules` in discord and the embed will be sent in that channel, and your inital command will be removed.
 
